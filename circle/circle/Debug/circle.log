@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\talib waseem\source\repos\circle\circle\source.cpp(43): error C2065: 'x': undeclared identifier
+c:\users\talib waseem\source\repos\circle\circle\source.cpp(43): error C2065: 'y': undeclared identifier
+c:\users\talib waseem\source\repos\circle\circle\source.cpp(43): error C2660: 'gluPerspective': function does not take 3 arguments
+c:\users\talib waseem\source\repos\circle\circle\source.cpp(45): error C2065: 'x': undeclared identifier
+c:\users\talib waseem\source\repos\circle\circle\source.cpp(45): error C2065: 'y': undeclared identifier

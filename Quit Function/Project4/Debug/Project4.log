@@ -1,0 +1,2 @@
+﻿  Source.cpp
+e:\microsoft visual studio\quit function\project4\source.cpp(12): error C2660: 'glutInit_ATEXIT_HACK': function does not take 0 arguments

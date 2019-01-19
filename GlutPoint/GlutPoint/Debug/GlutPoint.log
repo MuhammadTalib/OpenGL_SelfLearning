@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\talib waseem\source\repos\glutpoint\glutpoint\source.cpp(27): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  GlutPoint.vcxproj -> C:\Users\Talib Waseem\source\repos\LinePoint\Debug\GlutPoint.exe

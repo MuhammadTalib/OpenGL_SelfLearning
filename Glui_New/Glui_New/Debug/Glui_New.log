@@ -1,0 +1,33 @@
+﻿  main.cpp
+glui32.lib(glui.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+glui32.lib(glui.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+glui32.lib(glui.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+glui32.lib(glui_bitmaps.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+glui32.lib(glui_bitmaps.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+glui32.lib(glui_bitmaps.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+glui32.lib(glui_string.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+glui32.lib(glui_string.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+glui32.lib(glui_string.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+glui32.lib(glui_node.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+glui32.lib(glui_node.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+glui32.lib(glui_node.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+glui32.lib(glui_window.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+glui32.lib(glui_window.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+glui32.lib(glui_window.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+glui32.lib(glui_control.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+glui32.lib(glui_control.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+glui32.lib(glui_control.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+glui32.lib(glui_panel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1900' in main.obj
+glui32.lib(glui_panel.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in main.obj
+glui32.lib(glui_panel.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in main.obj
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glui32.lib(glui_window.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+glui32.lib(glui.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+glui32.lib(glui_bitmaps.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+glui32.lib(glui_node.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+glui32.lib(glui_string.obj) : error LNK2019: unresolved external symbol __imp___vsnprintf referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl glui_format_str(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char const *,...)" (?glui_format_str@@YAAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV12@PBDZZ)
+glui32.lib(glui_node.obj) : error LNK2019: unresolved external symbol __imp__fprintf referenced in function "public: void __thiscall GLUI_Node::dump(struct _iobuf *,char const *)" (?dump@GLUI_Node@@QAEXPAU_iobuf@@PBD@Z)
+D:\Visual Studio\Glui_New\Debug\Glui_New.exe : fatal error LNK1120: 3 unresolved externals

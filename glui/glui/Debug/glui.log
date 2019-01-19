@@ -1,0 +1,113 @@
+﻿  main.cpp
+glui32.lib(glui.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1900' in main.obj
+glui32.lib(glui_node.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1900' in main.obj
+glui32.lib(glui_bitmaps.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1900' in main.obj
+glui32.lib(glui_string.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1900' in main.obj
+glui32.lib(glui_control.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1900' in main.obj
+glui32.lib(glui_panel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1900' in main.obj
+glui32.lib(glui_window.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1900' in main.obj
+libglut.a(d000093.o) : warning LNK4078: multiple '.text' sections found with different attributes (E0000020)
+glui32.lib(glui.obj) : warning LNK4217: locally defined symbol _exit imported in function _glutCreateWindow_ATEXIT_HACK@4
+glui32.lib(glui.obj) : warning LNK4217: locally defined symbol _memmove imported in function "public: static char * __cdecl std::char_traits<char>::move(char *,char const *,unsigned int)" (?move@?$char_traits@D@std@@SAPADPADPBDI@Z)
+glui32.lib(glui_string.obj) : warning LNK4049: locally defined symbol _memmove imported
+glui32.lib(glui_control.obj) : warning LNK4049: locally defined symbol _memmove imported
+glui32.lib(glui_panel.obj) : warning LNK4049: locally defined symbol _memmove imported
+glui32.lib(glui_bitmaps.obj) : warning LNK4217: locally defined symbol _free imported in function "public: __thiscall GLUI_Bitmap::~GLUI_Bitmap(void)" (??1GLUI_Bitmap@@QAE@XZ)
+glui32.lib(glui_string.obj) : warning LNK4217: locally defined symbol _free imported in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(char const *,unsigned int)" (?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z)
+glui32.lib(glui_bitmaps.obj) : warning LNK4217: locally defined symbol _malloc imported in function "public: void __thiscall GLUI_Bitmap::init_grey(unsigned char *)" (?init_grey@GLUI_Bitmap@@QAEXPAE@Z)
+glui32.lib(glui_string.obj) : warning LNK4049: locally defined symbol _malloc imported
+glui32.lib(glui_string.obj) : warning LNK4217: locally defined symbol _realloc imported in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl glui_format_str(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char const *,...)" (?glui_format_str@@YAAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV12@PBDZZ)
+glui32.lib(glui_string.obj) : warning LNK4217: locally defined symbol __vsnprintf imported in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl glui_format_str(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,char const *,...)" (?glui_format_str@@YAAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV12@PBDZZ)
+glui32.lib(glui_control.obj) : warning LNK4217: locally defined symbol _strncpy imported in function "public: void __thiscall GLUI_Control::output_live(int)" (?output_live@GLUI_Control@@QAEXH@Z)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glFinish@0 referenced in function "void __cdecl finish_drawing(void)" (?finish_drawing@@YAXXZ)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+glui32.lib(glui.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+glui32.lib(glui_bitmaps.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glFlush@0 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glRotatef@16 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glTranslatef@12 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glLoadIdentity@0 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glMatrixMode@4 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol __imp__glMatrixMode@4
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glCullFace@4 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glDisable@4 referenced in function "protected: void __thiscall GLUI_Main::display(void)" (?display@GLUI_Main@@IAEXXZ)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol __imp__glDisable@4
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol __imp__glDisable@4
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function "protected: void __thiscall GLUI_Main::reshape(int,int)" (?reshape@GLUI_Main@@IAEXHH@Z)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glDrawBuffer@4 referenced in function "public: int __thiscall GLUI_Main::set_current_draw_buffer(void)" (?set_current_draw_buffer@GLUI_Main@@QAEHXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glGetIntegerv@8 referenced in function "public: int __thiscall GLUI_Main::set_current_draw_buffer(void)" (?set_current_draw_buffer@GLUI_Main@@QAEHXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glColor3d@24 referenced in function "public: void __thiscall GLUI_Main::draw_raised_box(int,int,int,int)" (?draw_raised_box@GLUI_Main@@QAEXHHHH@Z)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glEnd@0 referenced in function "public: void __thiscall GLUI_Main::draw_raised_box(int,int,int,int)" (?draw_raised_box@GLUI_Main@@QAEXHHHH@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol __imp__glEnd@0
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol __imp__glEnd@0
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glVertex2i@8 referenced in function "public: void __thiscall GLUI_Main::draw_raised_box(int,int,int,int)" (?draw_raised_box@GLUI_Main@@QAEXHHHH@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol __imp__glVertex2i@8
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol __imp__glVertex2i@8
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glBegin@4 referenced in function "public: void __thiscall GLUI_Main::draw_raised_box(int,int,int,int)" (?draw_raised_box@GLUI_Main@@QAEXHHHH@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol __imp__glBegin@4
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol __imp__glBegin@4
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glColor3ub@12 referenced in function "public: void __thiscall GLUI_Main::draw_raised_box(int,int,int,int)" (?draw_raised_box@GLUI_Main@@QAEXHHHH@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol __imp__glColor3ub@12
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol __imp__glColor3ub@12
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol __imp__glOrtho@48 referenced in function "public: void __thiscall GLUI_Main::set_ortho_projection(void)" (?set_ortho_projection@GLUI_Main@@QAEXXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ) referenced in function __unwindfunclet$??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@V?$allocator@D@1@@Z$0
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::~_Container_base12(void)" (__imp_??1_Container_base12@std@@QAE@XZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ) referenced in function "public: __thiscall std::_String_val<char,class std::allocator<char> >::_String_val<char,class std::allocator<char> >(class std::allocator<char>)" (??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@V?$allocator@D@1@@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Container_base12::_Container_base12(void)" (__imp_??0_Container_base12@std@@QAE@XZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ) referenced in function "public: __thiscall std::_String_val<char,class std::allocator<char> >::~_String_val<char,class std::allocator<char> >(void)" (??1?$_String_val@DV?$allocator@D@std@@@std@@QAE@XZ)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::_Container_base12::_Orphan_all(void)" (__imp_?_Orphan_all@_Container_base12@std@@QAEXXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z) referenced in function "public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Xran(void)const " (?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPBD@Z)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z) referenced in function "public: void __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::_Xlen(void)const " (?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPBD@Z)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z) referenced in function "void __cdecl std::_Debug_pointer<char>(char const *,wchar_t const *,unsigned int)" (??$_Debug_pointer@D@std@@YAXPBDPB_WI@Z)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (__imp_?_Debug_message@std@@YAXPB_W0I@Z)
+glui32.lib(glui.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &)" (__imp_??0exception@std@@QAE@ABQBD@Z) referenced in function "public: __thiscall std::bad_alloc::bad_alloc(char const *)" (??0bad_alloc@std@@QAE@PBD@Z)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &)" (__imp_??0exception@std@@QAE@ABQBD@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &)" (__imp_??0exception@std@@QAE@ABQBD@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(char const * const &)" (__imp_??0exception@std@@QAE@ABQBD@Z)
+glui32.lib(glui.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "public: virtual char const * __thiscall std::exception::what(void)const " (?what@exception@std@@UBEPBDXZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::exception::~exception(void)" (__imp_??1exception@std@@UAE@XZ) referenced in function "public: virtual __thiscall std::bad_alloc::~bad_alloc(void)" (??1bad_alloc@std@@UAE@XZ)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::exception::~exception(void)" (__imp_??1exception@std@@UAE@XZ)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::exception::~exception(void)" (__imp_??1exception@std@@UAE@XZ)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::exception::~exception(void)" (__imp_??1exception@std@@UAE@XZ)
+glui32.lib(glui.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(class std::exception const &)" (__imp_??0exception@std@@QAE@ABV01@@Z) referenced in function "public: __thiscall std::bad_alloc::bad_alloc(class std::bad_alloc const &)" (??0bad_alloc@std@@QAE@ABV01@@Z)
+glui32.lib(glui_string.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(class std::exception const &)" (__imp_??0exception@std@@QAE@ABV01@@Z)
+glui32.lib(glui_control.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(class std::exception const &)" (__imp_??0exception@std@@QAE@ABV01@@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::exception::exception(class std::exception const &)" (__imp_??0exception@std@@QAE@ABV01@@Z)
+glui32.lib(glui_node.obj) : error LNK2019: unresolved external symbol __imp__fprintf referenced in function "public: void __thiscall GLUI_Node::dump(struct _iobuf *,char const *)" (?dump@GLUI_Node@@QAEXPAU_iobuf@@PBD@Z)
+glui32.lib(glui_bitmaps.obj) : error LNK2019: unresolved external symbol __imp___wassert referenced in function "public: void __thiscall GLUI_Bitmap::init_grey(unsigned char *)" (?init_grey@GLUI_Bitmap@@QAEXPAE@Z)
+glui32.lib(glui_bitmaps.obj) : error LNK2019: unresolved external symbol __imp__glDrawPixels@20 referenced in function "public: void __thiscall GLUI_StdBitmaps::draw(int,int,int)const " (?draw@GLUI_StdBitmaps@@QBEXHHH@Z)
+glui32.lib(glui_bitmaps.obj) : error LNK2019: unresolved external symbol __imp__glRasterPos2f@8 referenced in function "public: void __thiscall GLUI_StdBitmaps::draw(int,int,int)const " (?draw@GLUI_StdBitmaps@@QBEXHHH@Z)
+glui32.lib(glui_bitmaps.obj) : error LNK2019: unresolved external symbol __imp__glPixelStorei@8 referenced in function "public: void __thiscall GLUI_StdBitmaps::draw(int,int,int)const " (?draw@GLUI_StdBitmaps@@QBEXHHH@Z)
+glui32.lib(glui_control.obj) : error LNK2019: unresolved external symbol __imp__glPopMatrix@0 referenced in function "public: void __thiscall GLUI_Control::translate_and_draw_front(void)" (?translate_and_draw_front@GLUI_Control@@QAEXXZ)
+glui32.lib(glui_control.obj) : error LNK2019: unresolved external symbol __imp__glPushMatrix@0 referenced in function "public: void __thiscall GLUI_Control::translate_and_draw_front(void)" (?translate_and_draw_front@GLUI_Control@@QAEXXZ)
+glui32.lib(glui_control.obj) : error LNK2019: unresolved external symbol __imp__glColor3f@12 referenced in function "public: void __thiscall GLUI_Control::draw_box_inwards_outline(int,int,int,int)" (?draw_box_inwards_outline@GLUI_Control@@QAEXHHHH@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol __imp__glColor3f@12
+glui32.lib(glui_control.obj) : error LNK2019: unresolved external symbol __imp__glLineStipple@8 referenced in function "public: void __thiscall GLUI_Control::draw_active_box(int,int,int,int)" (?draw_active_box@GLUI_Control@@QAEXHHHH@Z)
+glui32.lib(glui_control.obj) : error LNK2019: unresolved external symbol __imp__glEnable@4 referenced in function "public: void __thiscall GLUI_Control::draw_active_box(int,int,int,int)" (?draw_active_box@GLUI_Control@@QAEXHHHH@Z)
+glui32.lib(glui_control.obj) : error LNK2019: unresolved external symbol __imp__glLineWidth@4 referenced in function "public: void __thiscall GLUI_Control::draw_emboss_box(int,int,int,int)" (?draw_emboss_box@GLUI_Control@@QAEXHHHH@Z)
+glui32.lib(glui_panel.obj) : error LNK2001: unresolved external symbol __imp__glLineWidth@4
+glui32.lib(glui_control.obj) : error LNK2019: unresolved external symbol __imp__glColor3b@12 referenced in function "public: void __thiscall GLUI_Control::draw_name(int,int)" (?draw_name@GLUI_Control@@QAEXHH@Z)
+glui32.lib(glui_control.obj) : error LNK2019: unresolved external symbol __imp__glRasterPos2i@8 referenced in function "public: void __thiscall GLUI_Control::draw_name(int,int)" (?draw_name@GLUI_Control@@QAEXHH@Z)
+libglui.a : fatal error LNK1107: invalid or corrupt file: cannot read at 0xA3222
